@@ -4,15 +4,12 @@
 	<groupId>railo.rhinofly</groupId>
 	<artifactId>railo.rhinofly</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.1</version>
+	<version>0.1.2</version>
 	<name>Railo</name>
 	<parent>
 		<groupId>org.getrailo</groupId>
-		<artifactId>railo.pomparent.heroku.winstone</artifactId>
-		<!-- 
-		<artifactId>railo.pomparent.heroku.jetty</artifactId>
-		 -->
-		<version>4.1.0.005</version> 
+		<artifactId>railo.pomparent.winstone</artifactId>
+		<version>4.3.0.000</version> 
 	</parent>
 	<repositories>
 		<repository>
