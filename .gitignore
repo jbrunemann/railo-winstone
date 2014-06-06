@@ -1,2 +1,4 @@
 target
 *.log
+start.sh
+start.bat
