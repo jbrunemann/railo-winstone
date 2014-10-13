@@ -51,7 +51,7 @@
 						<configuration>
 							<tasks>
 								<echo file="start.sh"
-									message="sudo java $JAVA_OPTS -javaagent:target/railo-inst.jar -jar target/winstone.jar --ajp13Port=8009 --httpPort=8080 target/${project.artifactId}-${project.version}" />
+									message="java $JAVA_OPTS -javaagent:target/railo-inst.jar -jar target/winstone.jar --ajp13Port=8009 --httpPort=8080 target/${project.artifactId}-${project.version}" />
 								<chmod file="start.sh" perm="700"/>
 							</tasks>
 						</configuration>
